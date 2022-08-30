@@ -60,12 +60,12 @@ const loadClientAuth2 = async function (gapiScript, clientId, scopes) {
  * let gapi = loadGapiInsideDOM();
  * Now you can use it anywhere.
  */
-const loadGapiInsideDOM = async function () {
+const loadGapiInsideDOM = async function (scheme) {
   return new Promise(resolve => {
     const element = document.getElementsByTagName('script')[0];
     const js = document.createElement('script');
     js.id = 'google-platform';
-    js.src = 'https://apis.google.com/js/platform.js';
+    js.src = scheme + '://apis.google.com/js/platform.js';
     js.async = true;
     js.defer = true;
     element.parentNode.insertBefore(js, element);
