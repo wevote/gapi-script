@@ -65,7 +65,7 @@ const loadGapiInsideDOM = async function () {
     const element = document.getElementsByTagName('script')[0];
     const js = document.createElement('script');
     js.id = 'google-platform';
-    js.src = '//apis.google.com/js/platform.js';
+    js.src = 'https://apis.google.com/js/platform.js';
     js.async = true;
     js.defer = true;
     element.parentNode.insertBefore(js, element);
