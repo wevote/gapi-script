@@ -1,7 +1,7 @@
 # gapi-script
 [![Generic badge](https://img.shields.io/badge/License-MIT-blue.svg)](https://shields.io/) | [![Generic badge](https://img.shields.io/badge/version-1.2.0-white.svg)](https://shields.io/)
 ## 💡 Intro
-npm package that loads gapi script and initialize some functions.
+npm package that loads gapi script and initialize some functions.  **With a Scheme override for We Vote's WeVoteCordova Cordova app.**
 
  - [React live example](https://master.d3dnqnm15vsi52.amplifyapp.com))
  - [React live example project](https://github.com/LucasAndrad/gapi-script-live-example)
